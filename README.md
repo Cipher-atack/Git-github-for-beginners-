@@ -47,3 +47,20 @@ After installing Git, you need to tell it who you are. This information will be 
 
 You can verify your settings by typing: `git config --list`
 
+---
+
+## 3. The Core Workflow: Add, Commit, Push
+
+Now that Git is installed and you've set up your project, let's learn the three most important commands you'll use every day.
+
+Imagine you've just created or edited a file in your project. Here’s what you need to do:
+
+### Step 1: Stage your changes with `git add`
+
+Before you save your changes, you have to tell Git which files you want to include in your next save. This is called "staging."
+
+Use the following command to stage all your changes:
+
+```sh
+git add .
+
