@@ -64,3 +64,26 @@ Use the following command to stage all your changes:
 ```sh
 git add .
 
+ * The dot (.) tells Git to stage all new and modified files in your current folder.
+ * Pro-Tip: If you only want to stage a specific file, you can use git add <filename.txt>.
+Step 2: Commit your changes with git commit
+After staging, you need to save your changes with a descriptive message. A commit is like taking a snapshot of your project at a specific point in time.
+git commit -m "Your descriptive message here"
+
+ * The -m stands for "message".
+ * Your message should clearly explain what changes you made. For example: "Add user authentication feature" or "Fix bug in login page."
+Step 3: Push your changes to GitHub with git push
+The changes you've committed are currently only on your local computer. To upload them to your GitHub repository, you need to "push" them.
+git push origin main
+
+ * origin is the default name for your remote GitHub repository.
+ * main is the default name of your main branch.
+Putting it all together: An example
+Let's say you just created a new file named hello.js.
+ * Stage the file:
+   git add hello.js
+ * Commit the change:
+   git commit -m "Add hello.js file"
+ * Push the commit to GitHub:
+   git push origin main
+Congratulations! You've just completed the core Git workflow.
